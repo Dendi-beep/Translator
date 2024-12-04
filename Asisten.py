@@ -90,6 +90,9 @@ def Mulai():
                     cariwikipedia(topik)
                 else:
                     ngomong("Silahkan sebutkan topik yang ingin dicari.")
+            elif "facebook" in p:
+                facebook()
+                
             elif "keluar" in p:
                 ngomong("Terima kasih sudah menggunakan asisten saya. Sampai jumpa!")
                 break
