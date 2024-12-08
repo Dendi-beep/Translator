@@ -70,6 +70,11 @@ def cariwikipedia(topik):
         print(f"Kesalahan saat mencari di Wikipedia: {e}")
         ngomong(f"Kesalahan saat mencari di Wikipedia.")
 
+def desaEmpatD():
+    url = "https://www.desaempatd.com/"
+    webbrowser.open(url)
+    ngomong("Membuka situs kesayangan anda , Semoga Menangg...")
+
 def facebook():
     url = "https://web.facebook.com/Varukhpasterhitam?locale=id_ID"
     webbrowser.open(url)
